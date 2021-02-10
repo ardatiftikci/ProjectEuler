@@ -35,6 +35,7 @@ public class ProblemSet1 {
 		for(long i = 2; i <number;i++) {
 			while(number%i==0) {
 				number/=i;
+				//Dividing a number with its prime factors starting from the smallest result in the largest prime factor.
 				if(isPrime(number)) {
 					answer=number;
 					break;
